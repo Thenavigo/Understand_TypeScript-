@@ -36,7 +36,8 @@ Next Install lite-server like this to get the updates automatically.
 Next: We configure our package.json as follows
 
 ```bash
-	  "scripts": {
+"scripts": 
+{
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server"
   },
