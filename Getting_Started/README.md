@@ -137,11 +137,13 @@ In the first file .html we have
 In the second file .ts we have
 
 ```bash
-function Greeter(greeting: string) {
+function Greeter(greeting: string) 
+{
     this.greeting = greeting;
 }
 
-Greeter.prototype.greet = function() {
+Greeter.prototype.greet = function() 
+{
     return "Hello, " + this.greeting;
 }
 
