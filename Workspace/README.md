@@ -73,4 +73,66 @@ End we just have to do a tsc to get our app.js like this
 
 We just refresh our browser to see the result in console.
 
-Here we are just finished with Module 1, we'll meet at Module 2 tomorrow.
+2. [Module 2: Using Types for a better Code]() 👇
+
+
+	 
+```bash
+	 Using Types for a better Code - Introduction
+```
+
+So after we're done with our Module1, here we're going to move on to more interesting things to know : 
+
+- know the data types with TypeScript.
+
+
+```bash
+	 Using Types for a better Code - Type Basics
+```
+
+// type: string 
+
+In your folder Workspace -> app.ts write :
+
+```bash
+	 let myName = "Max";
+	 myName = 28;
+```
+
+from our console we will get this error message after executing the command "tsc".
+
+"error TS2322: Type '28' is not assignable to type 'string'".
+
+
+```bash
+	 Using Types For A Better Code - Numbers & Booleans
+```
+
+// type: number
+
+```bash
+	 let myAge = 27;
+	// myAge = 'Max';
+```
+
+// type: boolean
+
+```bash
+	 let hasHobbies = false;
+	// hasHobbies = 1;
+```
+
+```bash
+	 Using Types For A Better Code - Assigning Types Explicitly
+```
+
+// Assigning Types Explicitly
+
+```bash
+	 let myRealNumber: number;
+	 myRealNumber = 10;
+	//myRealAge = "10";
+```
+
+
+
