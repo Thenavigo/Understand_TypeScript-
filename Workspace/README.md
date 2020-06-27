@@ -134,5 +134,47 @@ from our console we will get this error message after executing the command "tsc
 	//myRealAge = "10";
 ```
 
+// Using Types For A Better Code - Arrays and Types
 
+
+```bash
+let hobbies = ["Cooking", "Sports"];
+console.log(hobbies[0]);
+hobbies = [100];
+
+//you can see error in your console because typeof hobbies is a string. but if i change like this :
+
+let hobbies: any[] = ["Cooking", "Sports"];
+hobbies = [100];
+console.log(hobbies[2]);
+//hobbies = 100;
+
+you can see error in your console because Type 'number' is not assignable to type 'any[]'.
+```
+
+
+// Using Types For A Better Code - Tuples
+
+```bash
+let address: [string, number] = ["Superstreet", 99];
+
+//if change position like this:
+//let address: [string, number] = [99, "Superstreet"];
+//you can see error in your console
+```
+
+// Using Types For A Better Code - Enums
+
+ ```bash
+ enum Color {
+ 	Gray, //0
+ 	Green, //1
+ 	Blue //2
+ }
+
+ let myColor: Color = Color.Green;
+ console.log(myColor);
+
+ You see 1 in your console. because number assign automatically.
+```
 

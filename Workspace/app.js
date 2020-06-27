@@ -12,3 +12,6 @@ var hasHobbies = false;
 var myRealAge;
 myRealAge = 27;
 //myRealAge = "27";
+// Arrays
+var hobbies = ["Cooking", "Sports"];
+console.log(hobbies[0]);
