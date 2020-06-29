@@ -223,12 +223,64 @@ function sayHello(): void
 // argument types
 
 ```bash
-function multiply(alue1: number, value2: number): number 
+function multiply(value1: number, value2: number): number 
 {
 	return value1 + value2;	
 }
-console.log(multiply(2, 'Max'));
-```
-You see error because Max is not a number.
+console.log(multiply(2, 10));
 
-We continue tomorrow
+// Using Types For A Better Code - Functions As Types
+
+```bash
+let myMultiply;
+myMultiply = sayHello;
+myMultiply();
+myMultiply = multiply;
+myMultiply();
+
+-------------function types-------------
+
+let myMultiply: (a: number, b: number) => number;
+myMultiply = sayHello;
+myMultiply();
+myMultiply = multiply;
+console.log(myMultiply(5,2));
+
+You see error type 'void' is not assignable to type 'number'
+```
+
+// Using Types For A Better Code - Objects And Types
+
+// objects
+
+```bash
+let userData: { name: string, age: number } = {
+	name: "Max",
+	age: 27
+};
+userData = {};
+You see error Type '{}' is not assignable to type '{ name: string; age: number;}'
+
+if you write like this:
+userData = {
+	a: "Hello",
+	b: 25
+};
+
+you see error type '{a: string; b: number;}' is 
+not assignable to type '{ name: string; age: number;}'
+```
+
+// Using Types For A Better Code - Example: Putting It All Together In A Complex Object
+
+// complex object
+
+```bash
+let complex: {data: number[], output: (all: boolean) => number[]} = {
+	data: [100, 3.85, 15],
+
+	output: function (all: boolean): number[] {
+	return this.data;
+	}
+};
+```
