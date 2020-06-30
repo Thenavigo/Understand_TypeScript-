@@ -131,3 +131,40 @@ let complex: {data: number[], output: (all: boolean) => number[]} = {
 	}
 };
 ```
+// complex = {}
+
+
+
+// type alias
+
+```bash
+type Complex = {data: number[], output: (all: boolean) => number[]};
+
+let complex2: Complex = {
+	data: [100, 3.85, 15],
+
+	output: function (all: boolean): number[] {
+	return this.data;
+	}
+};
+
+```
+
+// union types
+
+```bash
+let myRealNumber: number | string = 27;
+myRealNumber = "27";
+//myRealNumber = true;
+
+you see err -> Type 'boolean' is not assignable to type 'number | string'.
+```
+
+// check types
+
+```bash
+let finalValue = "A string";
+if (typeof finalValue == "number") {
+	console.log("Final value is a number");
+}
+```

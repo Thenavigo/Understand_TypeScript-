@@ -228,6 +228,7 @@ function multiply(value1: number, value2: number): number
 	return value1 + value2;	
 }
 console.log(multiply(2, 10));
+```
 
 // Using Types For A Better Code - Functions As Types
 
@@ -284,3 +285,52 @@ let complex: {data: number[], output: (all: boolean) => number[]} = {
 	}
 };
 ```
+
+// Using Types For A Better Code - Creating Custom Types With Type Aliases
+
+// type alias
+
+```bash
+type Complex = {data: number[], output: (all: boolean) => number[]};
+
+let complex2: Complex = {
+	data: [100, 3.85, 15],
+
+	output: function (all: boolean): number[] {
+	return this.data;
+	}
+};
+```
+
+
+// Using Types For A Better Code - Allowing Multiple Types With Union Types
+
+// union types
+
+```bash
+let myRealNumber: number | string = 27;
+myRealNumber = "27";
+//myRealNumber = true;
+
+you see err -> Type 'boolean' is not assignable to type 'number | string'.
+```
+
+
+// Using Types For A Better Code - Checking For Types During Runtime
+
+// check types
+
+```bash
+let finalValue = "A string";
+if (typeof finalValue == "number") {
+	console.log("Final value is a number");
+}
+```
+
+
+
+
+
+
+
+
