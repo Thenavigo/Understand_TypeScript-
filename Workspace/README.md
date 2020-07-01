@@ -330,30 +330,42 @@ if (typeof finalValue == "number") {
 // Using Types For A Better Code - The "Never" Type (Added With TypeScript 2.0)
 
 // never
+
+```bash
 function neverReturns():never {
 	throw new Err('An error!');
 }
+```
+
 
 // Using Types For A Better Code - Nullable Types (Added With TypeScript 2.0)
 
 // Nullable Types
 
+```bash
 let canBeNull = 12;
 canBeNull = null;
 let canAlsoBeNull;
 canAlsoBeNull = null;
 
 execute and see err -> TYpe 'null' is not assignable to type 'number'.
+```
 
-"strictNullChecks": true,
 
--------add------
+- - add "strictNullChecks": true, in tsconfig.json and rewrite like this:
+
+```bash
 let canBeNull: number | null = 12;
+canBeNull = null;
+let canAlsoBeNull;
+canAlsoBeNull = null;
 let canThisBeAny = null;
 canThisBeAny = 12;
-you see err -> Type 'number' is not assignable to type 'null'.
 
-// Using Types For A Better Code - Module Exercise: Problem
+you see err -> Type 'number' is not assignable to type 'null'.
+```
+
+
 
 // Problem : So the basics things is we not use in types here (exercice.ts):
 
