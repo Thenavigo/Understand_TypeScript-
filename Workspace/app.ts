@@ -168,3 +168,59 @@ if (typeof finalValue == "number") {
 	console.log("Final value is a number");
 }
 ```
+
+// never
+```bash
+function neverReturns():never {
+	throw new Err('An error!');
+}
+```
+
+// Nullable Types
+
+```bash
+let canBeNull = 12;
+canBeNull = null;
+let canAlsoBeNull;
+canAlsoBeNull = null;
+
+execute and see err -> TYpe 'null' is not assignable to type 'number'.
+```
+
+- add "strictNullChecks": true, in tsconfig.json and rewrite like this:
+
+```bash
+let canBeNull: number | null = 12;
+canBeNull = null;
+let canAlsoBeNull;
+canAlsoBeNull = null;
+let canThisBeAny = null;
+canThisBeAny = 12;
+
+you see err -> Type 'number' is not assignable to type 'null'.
+```
+
+// Problem : So the basics things is we not use in types here (exercice.ts):
+
+```bash
+let bankAccount = {
+	money: 2000,
+	deposit(value) {
+		this.money += value;
+	}
+};
+
+let myself = {
+	name: "Max",
+	bankAccount: bankAccount,
+	hobbies: ["sports", "Cooking"]
+};
+
+myself.bankAccount.deposit(3000);
+
+console.log(myself);
+```
+
+// Solution : Rewrite this code with types.
+
+

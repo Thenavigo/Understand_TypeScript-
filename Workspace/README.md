@@ -327,7 +327,60 @@ if (typeof finalValue == "number") {
 }
 ```
 
+// Using Types For A Better Code - The "Never" Type (Added With TypeScript 2.0)
 
+// never
+function neverReturns():never {
+	throw new Err('An error!');
+}
+
+// Using Types For A Better Code - Nullable Types (Added With TypeScript 2.0)
+
+// Nullable Types
+
+let canBeNull = 12;
+canBeNull = null;
+let canAlsoBeNull;
+canAlsoBeNull = null;
+
+execute and see err -> TYpe 'null' is not assignable to type 'number'.
+
+"strictNullChecks": true,
+
+-------add------
+let canBeNull: number | null = 12;
+let canThisBeAny = null;
+canThisBeAny = 12;
+you see err -> Type 'number' is not assignable to type 'null'.
+
+// Using Types For A Better Code - Module Exercise: Problem
+
+// Problem : So the basics things is we not use in types here (exercice.ts):
+
+```bash
+let bankAccount = {
+	money: 2000,
+	deposit(value) {
+		this.money += value;
+	}
+};
+
+let myself = {
+	name: "Max",
+	bankAccount: bankAccount,
+	hobbies: ["sports", "Cooking"]
+};
+
+myself.bankAccount.deposit(3000);
+
+console.log(myself);
+```
+
+
+
+// Using Types For A Better Code - Module Exercise: Solution
+
+Rewrite this code with types.
 
 
 
