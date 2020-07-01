@@ -352,7 +352,7 @@ execute and see err -> TYpe 'null' is not assignable to type 'number'.
 ```
 
 
-- - add "strictNullChecks": true, in tsconfig.json and rewrite like this:
+- add "strictNullChecks": true, in tsconfig.json and rewrite like this:
 
 ```bash
 let canBeNull: number | null = 12;
