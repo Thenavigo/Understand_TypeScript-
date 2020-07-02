@@ -31,12 +31,14 @@ run tsc you see err-> Type '30' is not assignable to type 'string'
 but app.js content myName = 30; it is "default beheviour".
 ```
 
-// Understanding The TypeScript Compiler - Changing The Compiler Behavior On Errors
 
-
-- Here is to block the compiler so that it does not generate a .js file in case of error.
 
 ```bash
+Understanding The TypeScript Compiler - Changing The Compiler Behavior On Errors
+
+Here is to block the compiler so that it does not generate a .js file in case of error.
+
+
 "noEmitOnError": true,
 
 This option added to our tsconfig, will control "default beheviour"
