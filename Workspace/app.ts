@@ -224,3 +224,28 @@ console.log(myself);
 // Solution : Rewrite this code with types.
 
 
+```bash
+type BankAccount = { money: number, deposit: (val: number) => void };
+
+let bankAccount: BankAccount = {
+	money: 2000,
+	deposit(value: number): void {
+		this.money += value;
+	}
+};
+
+let myself: { name: string, bankAccount: BankAccount, hobbies: string[] } = {
+	name: "Max",
+	bankAccount: bankAccount,
+	hobbies: ["sports", "Cooking"]
+};
+
+myself.bankAccount.deposit(3000);
+
+console.log(myself);
+```
+
+
+// Using Types For A Better Code - Module Summary
+
+- That's great, we can go into the next few features together for upgrade Growth.
