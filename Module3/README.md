@@ -77,12 +77,11 @@ let anything: any;
 ```
 
 
+
 ```bash
 Understanding The TypeScript Compiler - More Compiler Options
-
-[Official Documentation](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 ```
-
+[Official Documentation](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
 ```bash
 Understanding The TypeScript Compiler - Compiler Improvements With TypeScript 2.0
