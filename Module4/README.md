@@ -140,11 +140,10 @@ console.log(greeting);
 
 
 ```bash
- - TypeScript And ES6 - Other ES6 Features
+ - TypeScript And ES6 - Other ES6 Features 👇
 
- [subscribe to our newsletter](https://thenavigo.substack.com/p/coming-soon)
 ```
-
+ [subscribe to our newsletter](https://thenavigo.substack.com/p/coming-soon)
 
 ```bash
  - TypeScript And ES6 - Module Exercise: Solution
