@@ -63,7 +63,7 @@ person.printAge();
 
 ```bash
 - Using Classes To Create Objects - Inheritance
-class Max extends person {
+class Max extends Person {
 	name = "Max";
 }
 const max = new Max("Anna", "max");
@@ -74,7 +74,7 @@ console.log(max);
 ```bash
 
 - Using Classes To Create Objects - Inheritance And Constructors
-class Max extends person {
+class Max extends Person {
 	// name = "Max";
 
 	constructor(username: string) {
