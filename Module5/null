@@ -1,0 +1,557 @@
+c21:32:56 - Starting compilation in watch mode...
+
+
+21:32:57 - Found 0 errors. Watching for file changes.
+c21:34:19 - File change detected. Starting incremental compilation...
+
+app.ts(3,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(4,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+
+21:34:19 - Found 2 errors. Watching for file changes.
+c21:34:20 - File change detected. Starting incremental compilation...
+
+app.ts(3,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(4,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+
+21:34:20 - Found 2 errors. Watching for file changes.
+c21:34:20 - File change detected. Starting incremental compilation...
+
+app.ts(3,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(4,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+
+21:34:20 - Found 2 errors. Watching for file changes.
+c21:35:12 - File change detected. Starting incremental compilation...
+
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+
+21:35:12 - Found 2 errors. Watching for file changes.
+c21:35:31 - File change detected. Starting incremental compilation...
+
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+
+21:35:31 - Found 2 errors. Watching for file changes.
+c21:38:35 - File change detected. Starting incremental compilation...
+
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+
+21:38:35 - Found 2 errors. Watching for file changes.
+c21:38:36 - File change detected. Starting incremental compilation...
+
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+
+21:38:36 - Found 2 errors. Watching for file changes.
+c21:38:36 - File change detected. Starting incremental compilation...
+
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+
+21:38:36 - Found 2 errors. Watching for file changes.
+c21:41:41 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(13,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(18,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(20,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(21,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(28,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+
+21:41:41 - Found 8 errors. Watching for file changes.
+c21:42:08 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(15,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(20,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(22,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(23,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(30,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+
+21:42:08 - Found 8 errors. Watching for file changes.
+c21:42:57 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(14,7): error TS2339: Property 'setType' does not exist on type 'Person'.
+app.ts(18,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(23,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(25,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(26,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(33,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+
+21:42:57 - Found 9 errors. Watching for file changes.
+c21:42:57 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(14,7): error TS2339: Property 'setType' does not exist on type 'Person'.
+app.ts(18,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(23,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(25,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(26,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(33,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+
+21:42:57 - Found 9 errors. Watching for file changes.
+c21:43:17 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(14,7): error TS2339: Property 'setType' does not exist on type 'Person'.
+app.ts(20,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(25,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(27,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(28,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(35,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+
+21:43:17 - Found 9 errors. Watching for file changes.
+c21:43:48 - File change detected. Starting incremental compilation...
+
+app.ts(17,9): error TS1005: ';' expected.
+
+21:43:48 - Found 1 error. Watching for file changes.
+c21:43:55 - File change detected. Starting incremental compilation...
+
+app.ts(17,9): error TS1005: ';' expected.
+
+21:43:55 - Found 1 error. Watching for file changes.
+c21:44:00 - File change detected. Starting incremental compilation...
+
+app.ts(17,9): error TS1005: ';' expected.
+
+21:44:00 - Found 1 error. Watching for file changes.
+c21:44:24 - File change detected. Starting incremental compilation...
+
+app.ts(17,9): error TS1005: ';' expected.
+
+21:44:24 - Found 1 error. Watching for file changes.
+c21:44:24 - File change detected. Starting incremental compilation...
+
+app.ts(17,9): error TS1005: ';' expected.
+
+21:44:24 - Found 1 error. Watching for file changes.
+c21:44:50 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(23,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(28,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(30,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(31,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(38,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+
+21:44:50 - Found 8 errors. Watching for file changes.
+c21:45:00 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(13,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(18,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(20,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(21,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(28,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+
+21:45:00 - Found 8 errors. Watching for file changes.
+c21:45:08 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(13,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(18,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(20,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(21,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(38,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+
+21:45:08 - Found 8 errors. Watching for file changes.
+c21:45:09 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(13,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(18,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(20,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(21,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(38,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+
+21:45:09 - Found 8 errors. Watching for file changes.
+c21:45:40 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(13,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(18,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(20,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(21,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(38,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(40,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+
+21:45:40 - Found 9 errors. Watching for file changes.
+c21:46:21 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(13,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(18,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(20,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(21,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(38,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(40,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+
+21:46:21 - Found 9 errors. Watching for file changes.
+c21:46:55 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(13,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(18,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(20,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(38,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(40,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+
+21:46:55 - Found 8 errors. Watching for file changes.
+c21:46:56 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(13,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(18,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(20,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(38,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(40,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+
+21:46:56 - Found 8 errors. Watching for file changes.
+c21:48:17 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(13,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(18,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(20,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(38,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(40,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+
+21:48:18 - Found 8 errors. Watching for file changes.
+c21:48:32 - File change detected. Starting incremental compilation...
+
+app.ts(3,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(5,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(6,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(13,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(18,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(20,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(38,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(40,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+
+21:48:32 - Found 8 errors. Watching for file changes.
+c21:48:43 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+
+21:48:43 - Found 8 errors. Watching for file changes.
+c21:48:43 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+
+21:48:43 - Found 8 errors. Watching for file changes.
+c21:53:06 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+app.ts(44,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(48,21): error TS2554: Expected 0 arguments, but got 2.
+
+21:53:06 - Found 10 errors. Watching for file changes.
+c21:53:13 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+app.ts(44,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(48,21): error TS2554: Expected 0 arguments, but got 2.
+
+21:53:13 - Found 10 errors. Watching for file changes.
+c21:53:20 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+app.ts(44,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(48,21): error TS2554: Expected 0 arguments, but got 2.
+
+21:53:20 - Found 10 errors. Watching for file changes.
+c21:53:20 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+app.ts(44,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(48,21): error TS2554: Expected 0 arguments, but got 2.
+
+21:53:20 - Found 10 errors. Watching for file changes.
+c21:53:40 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+app.ts(44,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(47,21): error TS2554: Expected 0 arguments, but got 2.
+
+21:53:40 - Found 10 errors. Watching for file changes.
+c21:53:43 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+app.ts(44,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(47,21): error TS2554: Expected 0 arguments, but got 2.
+
+21:53:44 - Found 10 errors. Watching for file changes.
+c21:54:13 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+app.ts(44,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(47,21): error TS2554: Expected 0 arguments, but got 2.
+
+21:54:13 - Found 10 errors. Watching for file changes.
+c21:54:32 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+app.ts(44,7): error TS2300: Duplicate identifier 'Max'.
+app.ts(44,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(47,7): error TS2451: Cannot redeclare block-scoped variable 'max'.
+app.ts(47,21): error TS2554: Expected 0 arguments, but got 2.
+app.ts(51,7): error TS2300: Duplicate identifier 'Max'.
+app.ts(51,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(54,7): error TS2451: Cannot redeclare block-scoped variable 'max'.
+app.ts(54,21): error TS2554: Expected 0 arguments, but got 2.
+
+21:54:32 - Found 16 errors. Watching for file changes.
+c21:54:52 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+app.ts(44,7): error TS2300: Duplicate identifier 'Max'.
+app.ts(44,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(47,7): error TS2451: Cannot redeclare block-scoped variable 'max'.
+app.ts(47,21): error TS2554: Expected 0 arguments, but got 2.
+app.ts(51,7): error TS2300: Duplicate identifier 'Max'.
+app.ts(51,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(54,2): error TS2377: Constructors for derived classes must contain a 'super' call.
+app.ts(58,7): error TS2451: Cannot redeclare block-scoped variable 'max'.
+app.ts(58,21): error TS2554: Expected 0 arguments, but got 2.
+
+21:54:52 - Found 17 errors. Watching for file changes.
+c21:54:52 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+app.ts(44,7): error TS2300: Duplicate identifier 'Max'.
+app.ts(44,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(47,7): error TS2451: Cannot redeclare block-scoped variable 'max'.
+app.ts(47,21): error TS2554: Expected 0 arguments, but got 2.
+app.ts(51,7): error TS2300: Duplicate identifier 'Max'.
+app.ts(51,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(54,2): error TS2377: Constructors for derived classes must contain a 'super' call.
+app.ts(58,7): error TS2451: Cannot redeclare block-scoped variable 'max'.
+app.ts(58,21): error TS2554: Expected 0 arguments, but got 2.
+
+21:54:52 - Found 17 errors. Watching for file changes.
+c21:54:57 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+app.ts(44,7): error TS2300: Duplicate identifier 'Max'.
+app.ts(44,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(47,7): error TS2451: Cannot redeclare block-scoped variable 'max'.
+app.ts(47,21): error TS2554: Expected 0 arguments, but got 2.
+app.ts(51,7): error TS2300: Duplicate identifier 'Max'.
+app.ts(51,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(54,2): error TS2377: Constructors for derived classes must contain a 'super' call.
+app.ts(58,7): error TS2451: Cannot redeclare block-scoped variable 'max'.
+app.ts(58,21): error TS2554: Expected 0 arguments, but got 2.
+
+21:54:57 - Found 17 errors. Watching for file changes.
+c21:57:13 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+app.ts(44,7): error TS2300: Duplicate identifier 'Max'.
+app.ts(44,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(47,7): error TS2451: Cannot redeclare block-scoped variable 'max'.
+app.ts(47,21): error TS2554: Expected 0 arguments, but got 2.
+app.ts(51,7): error TS2300: Duplicate identifier 'Max'.
+app.ts(51,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(55,16): error TS2304: Cannot find name 'username'.
+app.ts(58,7): error TS2451: Cannot redeclare block-scoped variable 'max'.
+app.ts(58,21): error TS2554: Expected 0 arguments, but got 2.
+
+21:57:13 - Found 17 errors. Watching for file changes.
+c21:57:21 - File change detected. Starting incremental compilation...
+
+app.ts(2,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(4,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(5,12): error TS2564: Property 'age' has no initializer and is not definitely assigned in the constructor.
+app.ts(12,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(16,7): error TS2300: Duplicate identifier 'Person'.
+app.ts(18,10): error TS2564: Property 'type' has no initializer and is not definitely assigned in the constructor.
+app.ts(36,7): error TS2451: Cannot redeclare block-scoped variable 'person'.
+app.ts(38,8): error TS2339: Property 'printAge' does not exist on type 'Person'.
+app.ts(44,7): error TS2300: Duplicate identifier 'Max'.
+app.ts(44,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(47,7): error TS2451: Cannot redeclare block-scoped variable 'max'.
+app.ts(47,21): error TS2554: Expected 0 arguments, but got 2.
+app.ts(51,7): error TS2300: Duplicate identifier 'Max'.
+app.ts(51,19): error TS2507: Type 'Person' is not a constructor function type.
+app.ts(58,7): error TS2451: Cannot redeclare block-scoped variable 'max'.
+app.ts(58,21): error TS2554: Expected 0 arguments, but got 2.
+
+21:57:21 - Found 16 errors. Watching for file changes.
+c21:57:32 - File change detected. Starting incremental compilation...
+
+app.ts(58,24): error TS1005: ',' expected.
+app.ts(58,27): error TS1002: Unterminated string literal.
+app.ts(59,1): error TS1005: ',' expected.
+app.ts(59,17): error TS1005: ')' expected.
+
+21:57:32 - Found 4 errors. Watching for file changes.
+c21:57:32 - File change detected. Starting incremental compilation...
+
+app.ts(58,24): error TS1005: ',' expected.
+app.ts(58,27): error TS1002: Unterminated string literal.
+app.ts(59,1): error TS1005: ',' expected.
+app.ts(59,17): error TS1005: ')' expected.
+
+21:57:32 - Found 4 errors. Watching for file changes.
+c21:57:34 - File change detected. Starting incremental compilation...
+
+app.ts(58,24): error TS1005: ',' expected.
+app.ts(58,27): error TS1002: Unterminated string literal.
+app.ts(59,1): error TS1005: ',' expected.
+app.ts(59,17): error TS1005: ')' expected.
+
+21:57:34 - Found 4 errors. Watching for file changes.
+c21:57:46 - File change detected. Starting incremental compilation...
+
+app.ts(58,24): error TS1005: ',' expected.
+app.ts(58,27): error TS1002: Unterminated string literal.
+app.ts(59,1): error TS1005: ',' expected.
+app.ts(59,17): error TS1005: ')' expected.
+
+21:57:46 - Found 4 errors. Watching for file changes.
+c21:57:47 - File change detected. Starting incremental compilation...
+
+app.ts(58,24): error TS1005: ',' expected.
+app.ts(58,27): error TS1002: Unterminated string literal.
+app.ts(59,1): error TS1005: ',' expected.
+app.ts(59,17): error TS1005: ')' expected.
+
+21:57:47 - Found 4 errors. Watching for file changes.
+c21:57:48 - File change detected. Starting incremental compilation...
+
+app.ts(58,24): error TS1005: ',' expected.
+app.ts(58,27): error TS1002: Unterminated string literal.
+app.ts(59,1): error TS1005: ',' expected.
+app.ts(59,17): error TS1005: ')' expected.
+
+21:57:48 - Found 4 errors. Watching for file changes.
+Terminer le programme de commandes (O/N)ÿ? 

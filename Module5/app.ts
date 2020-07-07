@@ -1,21 +1,4 @@
-# WE COVER
-
-*Understanding TypeScript Tutorial *
-
-# Table of Contents
-
-
-1. [Module 5: Using Classes to create Objects]() 👇
-
-	 
-```bash
-- Using Classes to create Objects - Introduction
-
-Welcome to the Using Classes to create Objects
-```
-
-```bash
-- Using Classes To Create Objects - Creating Classes And Class Properties
+// Using Classes To Create Objects - Creating Classes and Class Properties
 class Person {
 	name: string;
 	private type: string;
@@ -28,11 +11,8 @@ class Person {
 
 const person = new Person("Max", "max");
 console.log(person.name, person.username);
-```
 
-
-```bash
-- Using Classes To Create Objects - Class Methods And Access Modifiers
+// Using Classes To Create Objects - Class Methods And Access Modifiers
 class Person {
 	name: string;
 	private type: string;
@@ -57,23 +37,17 @@ const person = new Person("Max", "max");
 console.log(person.name, person.username);
 person.printAge();
 // person.setType("Cool guy"); Won't work with private method
-```
 
 
 
-```bash
-- Using Classes To Create Objects - Inheritance
+// Using Classes To Create Objects - Inheritance
 class Max extends person {
 	name = "Max";
 }
 const max = new Max("Anna", "max");
 console.log(max);
-```
 
-
-```bash
-
-- Using Classes To Create Objects - Inheritance And Constructors
+// Using Classes To Create Objects - Inheritance And Constructors
 class Max extends person {
 	// name = "Max";
 
@@ -83,4 +57,3 @@ class Max extends person {
 }
 const max = new Max(max");
 console.log(max);
-```
