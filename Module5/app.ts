@@ -1,4 +1,4 @@
-// Using Classes To Create Objects - Creating Classes and Class Properties
+// Creating Classes and Class Properties
 class Person {
 	name: string;
 	private type: string;
@@ -12,7 +12,7 @@ class Person {
 const person = new Person("Max", "max");
 console.log(person.name, person.username);
 
-// Using Classes To Create Objects - Class Methods And Access Modifiers
+// Class Methods And Access Modifiers
 class Person {
 	name: string;
 	private type: string;
@@ -40,20 +40,95 @@ person.printAge();
 
 
 
-// Using Classes To Create Objects - Inheritance
-class Max extends person {
+// Inheritance
+class Max extends Person {
 	name = "Max";
 }
 const max = new Max("Anna", "max");
 console.log(max);
 
-// Using Classes To Create Objects - Inheritance And Constructors
-class Max extends person {
+// Inheritance And Constructors
+class Max extends Person {
 	// name = "Max";
 
 	constructor(username: string) {
 		super("Max", username);
 	}
 }
-const max = new Max(max");
+const max = new Max("max");
 console.log(max);
+
+
+// Inheritance Wrap Up
+class Max extends Person {
+	// name = "Max";
+
+	constructor(username: string) {
+		super("Max", username);
+		this.age = 31;
+	}
+}
+const max = new Max("max");
+console.log(max);
+
+
+// Getters & Setters
+class Plant {
+	private _species: string = "Default";
+
+	get species() {
+		return this._species;
+	}
+
+	set species(value: string) 
+	{
+		if (value.length > 3) {
+			this._species = value;
+		} else {
+			this._species = "Default";
+		}
+	}
+}
+
+let plant = new Plant();
+console.log(plant.species);
+// You see "Default"
+plant.species = "AB";
+console.log(plant.species);
+// You see "Default" because (value.length < 3)
+plant.species = "Green Plant";
+console.log(plant.species);
+
+// Static Properties & Methods
+class Helpers {
+	static PI: number = 3.14;
+	static calcCircumference(diameter: number): number {
+		return this.PI * diameter;
+	}
+}
+
+console.log(2 * Helpers.PI);
+console.log(Helpers.calcCircumference(8));
+
+// Abstract Classes
+abstract class Project {
+	projectName: string = "Thenavigo.com";
+	budget: number = 1000;
+
+	abstract changeName(name: string): void;
+
+	calcBudget() {
+		return this.budget * 2;
+	}
+}
+
+class ITProject extends Project {
+	changeName(name: string): void {
+		this.projectName = name;
+	}
+}
+
+let newProject = new ITProject();
+console.log(newProject);
+newProject.changeName("http://see-docs.com/");
+console.log(newProject);
