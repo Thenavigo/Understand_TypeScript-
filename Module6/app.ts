@@ -1,22 +1,4 @@
-# WE COVER
-
-*Understanding TypeScript Tutorial *
-
-# Table of Contents
-
-
-1. [Module 5: Namespaces and Modules]() 👇
-
-	 
-```bash
-- Namespaces and Modules - Introduction
-
-Welcome to the Namespaces and Modules.
-```
-
-
-```bash
-- Namespaces and Modules - An Introduction To Namespaces
+// Namespaces and Modules - An Introduction To Namespaces
 
 namespace MyMath {
 	const PI = 3.14;
@@ -37,4 +19,3 @@ console.log(MyMath.calculateCircumference(3));
 console.log(PI);
 
 // run tsc
-```

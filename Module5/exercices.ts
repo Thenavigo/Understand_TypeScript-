@@ -52,7 +52,7 @@ Object.defineProperty(person, "firstName", {
 	configurable: true
 });
 console.log(person.firstName);
-person.firstName = "Patrick";
+person.firstName = "Et";
 console.log(person.firstName);
 person.firstName = "john wick";
 console.log(person.firstName);
