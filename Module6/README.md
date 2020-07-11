@@ -38,3 +38,46 @@ console.log(PI);
 
 // run tsc
 ```
+
+
+```bash
+ - Namespaces And Multiple Files
+
+let's create two files like this
+
+- touch circleMath.ts rectangleMath.ts
+
+and put in each respective function.
+
+run tsc, before insert in index.html  
+<script src="circleMath.js"></script> 
+&
+<script src="rectangleMath.js"></script>
+
+// Or run tsc --outFile app.js circleMath.ts rectangleMath.ts app.ts
+```
+
+
+
+```bash
+- Namespace Imports
+
+ add two references like this in your "app.ts" 
+
+ /// <reference path="circleMath.ts" /> 
+ /// <reference path="rectangleMath.ts" />
+
+and run tsc app.ts --outFile app.js
+```
+
+```bash
+- More on Namespaces
+
+add two references like this in your "app.ts" 
+
+/// <reference path="circleMath.ts" /> 
+/// <reference path="rectangleMath.ts" />
+
+and run tsc app.ts --outFile app.js
+```
+
