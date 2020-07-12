@@ -49,6 +49,6 @@ console.log(PI);
 // - More On Namespaces
 //create namespace Circle like this in circleMath.ts
 // Next import CircleMath = MyMath.Circle; in app.ts
-// Next change console.log() like this -> console.log(CircleMath.calculateCircumference(3));console.log(CircleMath.calculateCircumference(3));
+// Next change console.log() like this -> console.log(CircleMath.calculateCircumference(3));
 // Next run run tsc app.ts --outFile app.js
 

@@ -71,13 +71,11 @@ and run tsc app.ts --outFile app.js
 ```
 
 ```bash
-- More on Namespaces
+- More On Namespaces
 
-add two references like this in your "app.ts" 
-
-/// <reference path="circleMath.ts" /> 
-/// <reference path="rectangleMath.ts" />
-
-and run tsc app.ts --outFile app.js
+1 - create namespace Circle like this in circleMath.ts
+2 - Next import CircleMath = MyMath.Circle; in app.ts
+3 - Next change console.log() like this -> console.log(CircleMath.calculateCircumference(3));
+4 - Next run run tsc app.ts --outFile app.js
 ```
 
