@@ -113,7 +113,7 @@ run tsc You see "Uncaught ReferenceError: require is not defined"
 	System.import('app.js');
 </script>
 
-and run tsc
+and run tsc.
 ```
 
 
