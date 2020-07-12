@@ -96,8 +96,6 @@ run tsc You see "Uncaught ReferenceError: require is not defined"
 ```bash
 - Loading Modules 👇
 
-[Learn more about module loader](https://github.com/systemjs/systemjs) 
-
 1 -  install systemjs like this ->  npm i systemjs --save
 
 2 - in our index.html add these two scripts js
@@ -115,6 +113,6 @@ run tsc You see "Uncaught ReferenceError: require is not defined"
 
 and run tsc.
 ```
-
+[Learn more about module loader](https://github.com/systemjs/systemjs) 
 
 
