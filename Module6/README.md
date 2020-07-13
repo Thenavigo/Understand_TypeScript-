@@ -5,7 +5,7 @@
 # Table of Contents
 
 
-1. [Module 5: Namespaces and Modules]() 👇
+1. [Module 6: Namespaces and Modules]() 👇
 
 	 
 ```bash
