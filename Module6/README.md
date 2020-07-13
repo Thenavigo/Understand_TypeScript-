@@ -116,3 +116,31 @@ and run tsc.
 [Learn more about module loader](https://github.com/systemjs/systemjs) 
 
 
+```bash
+- Importing & Exporting Modules
+
+1 - Change import module like this
+2 - import * as Circle from "./math/circle"; & import calc from "./math/rectangle";
+3 - add "export default function calculateRectangle" in rectangle.ts
+run tsc
+```
+
+
+```bash
+- Module Resolution
+
+at this level we can manipulate our files in several ways.
+
+1 - Relative path import like this -> import * as Circle from "./math/circle"; 
+2 - Absolute path import like this -> import { Component } from "@angular/core";
+&
+- Local export 
+- Global export
+```
+
+
+```bash
+- Namespaces Vs Modules - Wrap Up 👇
+```
+
+![Preview](https://github.com/patbi/Understand_TypeScript-/blob/master/Module6/NamespacesvsModules.JPG)

@@ -1,11 +1,13 @@
-import { PI, calculateCircumference } from "./math/circle"; 
+import * as Circle from "./math/circle"; 
+// import { Component } from "@angular/core";
+import calc from "./math/rectangle";
 
 //   /// <reference path="circleMath.ts" />
 //   /// <reference path="rectangleMath.ts" />
 
 // import CircleMath = MyMath.Circle;
 
-// Namespaces and Modules - An Introduction To Namespaces
+// - An Introduction To Namespaces
 
 //namespace MyMath {
 //	const PI = 3.14;
@@ -55,19 +57,20 @@ import { PI, calculateCircumference } from "./math/circle";
 // Next run run tsc app.ts --outFile app.js
 
 
-// Limitations Of Namespaces
+// - Limitations Of Namespaces
 // namespaces will hit their end-of-life soon, basically they solved a problem that now can be solved with classical ES6 syntax. Even if the import/export keyword is not working in all browsers out of the box, that’ the road they are covering so it’s just a matter of time and we’ll get rid of any other solution we had to manage complexity.
 
 
-// Modules
+// - Modules
 // let's create the math directory with these two (circle, rectangle).ts  inside.
-console.log(PI);
-console.log(calculateCircumference(10));
+console.log(Circle.PI);
+console.log(Circle.calculateCircumference(10));
+console.log(calc(20, 50));
 // run tsc You see "Uncaught ReferenceError: require is not defined"
 // console.log()
 
 
-// Loading Modules 👇
+// - Loading Modules 👇
 
 // [Learn more about module loader](https://github.com/systemjs/systemjs) 
 
@@ -86,3 +89,23 @@ console.log(calculateCircumference(10));
 //</script>
 
 // and run tsc
+
+
+// - Importing & Exporting Modules
+//1 - Change import module like this
+//2 - import * as Circle from "./math/circle"; & import calc from "./math/rectangle";
+//3 - add "export default function calculateRectangle" in rectangle.ts
+// run tsc
+
+
+// - Module Resolution
+relative path import like this -> import * as Circle from "./math/circle"; 
+absolute path import like this -> import { Component } from "@angular/core";
+ &
+local export 
+global export
+
+
+// - Namespaces Vs Modules - Wrap Up 👇
+
+![Preview](https://github.com/patbi/Understand_TypeScript-/blob/master/Module6/NamespacesvsModules.JPG)
