@@ -101,3 +101,63 @@ person.greet("Anything");
 
 run tsc
 ```
+
+
+```bash
+- Using Interfaces With Classes
+
+class Person implements NamedPerson {
+	firstName: string;
+	lastName: string;
+	greet(lastName: string) {
+		console.log("Hi, I am " + this.firstName + " " + lastName);
+	};	
+}
+
+const myPerson = new Person();
+myPerson.firstName = "Patrick";
+myPerson.lastName = "Anything";
+greet(myPerson);
+myPerson.greet(myPerson.lastName);
+
+run tsc
+```
+
+
+
+```bash
+-  Function Types
+interface DoubleValueFunc {
+	(number1: number, number2: number): number;
+}
+
+let myDoubleFunction = function(value1: number, value2: number) {
+	return (value1 + value2) * 2;
+};
+
+console.log(myDoubleFunction(10, 20));
+
+run tsc
+```
+
+
+
+```bash
+-Interface Inheritance
+interface AgedPerson extends NamedPerson {
+	age: number;
+}
+
+const oldPerson: AgedPerson = {
+	age: 27,
+	firstName: "Pat",
+	greet(lastName: string) {
+		console.log("Hello");
+	}
+};
+
+console.log(oldPerson);
+
+run tsc
+```
+

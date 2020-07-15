@@ -1,24 +1,24 @@
 "use strict";
 // - The Basics About Interfaces.
 function greet(person) {
-    console.log("Hello, " + person.name);
+    console.log("Hello, " + person.firstName);
 }
 function changeName(person) {
-    person.name = "Kraken";
+    person.firstName = "Kraken";
 }
 //const person = {
-//	name: "Patrick",
+//	firstName: "Patrick",
 //	age: 27
 //};
 var person = {
-    name: "Patrick",
+    firstName: "Patrick",
     hobbies: ["Cooking", "Sports"],
     greet: function (lastName) {
-        console.log("Hi, I am " + this.name + " " + lastName);
+        console.log("Hi, I am " + this.firstName + " " + lastName);
     }
 };
 // greet(person);
-// greet({name: "Patrick", age: 27});
+// greet({firstName: "Patrick", age: 27});
 changeName(person);
 greet(person);
 person.greet("Anything");
@@ -29,19 +29,30 @@ person.greet("Anything");
 // to solve this problem we just have to define our property as "optional." Like this:
 // age?: number;
 // run tsc
-// - Interfaces And Methods
-// we will manipulate the greet() method let's look at the readme.
-// - Using Interfaces With Classes 
+// - Using Interfaces With Classes
 var Person = /** @class */ (function () {
     function Person() {
     }
     Person.prototype.greet = function (lastName) {
-        console.log("Hi, I am " + this.name + " " + lastName);
+        console.log("Hi, I am " + this.firstName + " " + lastName);
     };
     ;
     return Person;
 }());
 var myPerson = new Person();
-myPerson.name = "bestCode";
+myPerson.firstName = "Patrick";
+myPerson.lastName = "Anything";
 greet(myPerson);
-myPerson.greet("Anything");
+myPerson.greet(myPerson.lastName);
+var myDoubleFunction = function (value1, value2) {
+    return (value1 + value2) * 2;
+};
+console.log(myDoubleFunction(10, 20));
+var oldPerson = {
+    age: 27,
+    firstName: "Pat",
+    greet: function (lastName) {
+        console.log("Hello");
+    }
+};
+console.log(oldPerson);
