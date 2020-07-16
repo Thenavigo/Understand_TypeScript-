@@ -48,4 +48,31 @@ simpleMath.multiplyValue = 20;
 console.log(simpleMath.calculate());
 
 
-// Constraints
+// - Constraints
+class SimpleMath<T extends number | string> {
+	baseValue: T;
+	multiplyValue: T;
+	calculate(): number {
+		return +this.baseValue * +this.multiplyValue;
+	}
+}
+
+const simpleMath = new SimpleMath<string>();
+simpleMath.baseValue = "10";
+simpleMath.multiplyValue = "20";
+console.log(simpleMath.calculate());
+
+
+// - Using More Than One Generic Type
+class SimpleMath<T extends number | string, U extends number | string> {
+	baseValue: T;
+	multiplyValue: U;
+	calculate(): number {
+		return +this.baseValue * +this.multiplyValue;
+	}
+}
+
+const simpleMath = new SimpleMath<string, number>();
+simpleMath.baseValue = "10";
+simpleMath.multiplyValue = 20;
+console.log(simpleMath.calculate());

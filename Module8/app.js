@@ -38,3 +38,29 @@ var simpleMath = new SimpleMath();
 simpleMath.baseValue = 10;
 simpleMath.multiplyValue = 20;
 console.log(simpleMath.calculate());
+// - Constraints
+var SimpleMath = /** @class */ (function () {
+    function SimpleMath() {
+    }
+    SimpleMath.prototype.calculate = function () {
+        return +this.baseValue * +this.multiplyValue;
+    };
+    return SimpleMath;
+}());
+var simpleMath = new SimpleMath();
+simpleMath.baseValue = "10";
+simpleMath.multiplyValue = "20";
+console.log(simpleMath.calculate());
+// - Using More Than One Generic Type
+var SimpleMath = /** @class */ (function () {
+    function SimpleMath() {
+    }
+    SimpleMath.prototype.calculate = function () {
+        return +this.baseValue * +this.multiplyValue;
+    };
+    return SimpleMath;
+}());
+var simpleMath = new SimpleMath();
+simpleMath.baseValue = "10";
+simpleMath.multiplyValue = 20;
+console.log(simpleMath.calculate());
