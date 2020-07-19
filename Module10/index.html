@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Learn TypeScript</title>
+	<title>TypeScript</title>
+	<script src="node_modules/systemjs/dist/system.js"></script>
 </head>
 <body>
+<div id="app">Change it with jQuery</div>
 
 
-<script src="app.js"></script>
+
+<script>
+	// set our baseURL reference path
+	SystemJS.config({
+		map: {
+			"jQuery": "node_modules/jquery/dist/jquery.min.js"
+		},
+		baseURL: '/',
+		defaultJSExtensions: true
+	});
+	System.import('app.js');
+</script>
+<!-- <script src="circleMath.js"></script>
+<script src="rectangleMath.js"></script> -->
 </body>
 </html>

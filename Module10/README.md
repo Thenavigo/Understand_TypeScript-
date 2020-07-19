@@ -14,3 +14,18 @@
 Welcome to the Using JavaScript Libraries (like jQuery) with TypeScript.
 ```
 
+
+```bash
+ - Installing A Third-Party Library
+
+like this:  npm install --save jquery
+```
+
+```bash
+ - Importing The Library
+
+
+import "jQuery";
+
+$("#app").css({"background-color": "green"});
+```

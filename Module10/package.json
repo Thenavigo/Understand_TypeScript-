@@ -4,9 +4,11 @@
   "description": "*Understanding TypeScript Tutorial *",
   "main": "index.js",
   "dependencies": {
+    "jquery": "^3.5.1",
     "systemjs": "^6.3.3"
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.0",
     "lite-server": "^2.5.4"
   },
   "scripts": {
