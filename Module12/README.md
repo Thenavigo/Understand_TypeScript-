@@ -14,3 +14,23 @@
 Welcome to the Using TypeScript together with ReactJS.
 ```
 
+
+```bash
+ - Setting Up The Project & Adding React Packages.
+
+ 1- run npm init -y
+
+ 2 - run npm i react react-dom --save
+```
+
+
+
+```bash
+ - Adding the ReactJS TypeScript Definition Files.
+
+1 - run typings install dt~react dt~react-dom --save
+```
+
+
+
+
