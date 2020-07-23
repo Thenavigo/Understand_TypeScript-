@@ -35,7 +35,7 @@ Welcome to the Using TypeScript together with ReactJS.
 ```bash
  - Installing Webpack.
 
-1 -
+1 - npm i webpack ts-loader --save-dev
 ```
 
 
