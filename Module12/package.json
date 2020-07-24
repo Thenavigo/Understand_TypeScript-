@@ -12,5 +12,9 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.1",
+    "webpack": "^4.43.0"
   }
 }
